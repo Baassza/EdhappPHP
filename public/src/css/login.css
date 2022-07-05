@@ -1,0 +1,138 @@
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.login-form {
+    width: 20%;
+}
+
+.hide-password {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+    z-index: 2;
+    margin-left: 18%;
+}
+
+.gmail-login {
+    width: 20%;
+    border: 0;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+.rounded-btn {
+    border-radius: 10px;
+    height: 35px;
+}
+
+.gray {
+    color: #919191;
+}
+
+.main {
+    flex-direction: column;
+}
+
+i {
+    font-size: 20 px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .gmail-login {
+        width: 70%;
+    }
+
+    .login-form {
+        width: 70%;
+    }
+
+    .hide-password {
+        margin-left: 62%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gmail-login {
+        width: 50%;
+    }
+
+    .login-form {
+        width: 50%;
+    }
+
+    .hide-password {
+        margin-left: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .gmail-login {
+        width: 40%;
+    }
+
+    .login-form {
+        width: 40%;
+    }
+
+    .hide-password {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .gmail-login {
+        width: 35%;
+    }
+
+    .login-form {
+        width: 35%;
+    }
+
+    .hide-password {
+        margin-left: 31%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .gmail-login {
+        width: 25%;
+    }
+
+    .login-form {
+        width: 25%;
+    }
+
+    .hide-password {
+        margin-left: 22%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .gmail-login {
+        width: 20%;
+    }
+
+    .login-form {
+        width: 20%;
+    }
+
+    .hide-password {
+        margin-left: 18%;
+    }
+}

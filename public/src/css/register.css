@@ -1,0 +1,111 @@
+.register-btn {
+    width: 100%;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+}
+
+
+.register-form {
+    width: 20%;
+}
+
+.hide-password {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+    z-index: 2;
+    margin-left: 28%;
+}
+
+.nav-wrapper {
+    margin: 30px;
+}
+
+
+.gray {
+    color: #919191;
+}
+
+.main {
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+i{
+    font-size: 20 px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {
+
+    .register-form {
+        width: 70%;
+    }
+
+    .hide-password {
+        margin-left: 62%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+    .register-form {
+        width: 50%;
+    }
+
+    .hide-password {
+        margin-left: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .register-form {
+        width: 40%;
+    }
+
+    .hide-password {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .register-form {
+        width: 35%;
+    }
+
+    .hide-password {
+        margin-left: 31%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+   
+    .register-form {
+        width: 25%;
+    }
+
+    .hide-password {
+        margin-left: 22%;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .register-form {
+        width: 20%;
+    }
+
+    .hide-password {
+        margin-left: 18%;
+    }
+}
